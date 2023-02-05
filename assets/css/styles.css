@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#inde {
+    border-style: solid;
+    border-radius: 50px 50px 50px 50px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../images/fondo4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#butto {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    background: linear-gradient(to right, #d31111, #cd6c6c);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff00;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgb(255, 0, 13);
+    border-radius: 32px 32px 32px 32px;
+}
+
+form .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-bottom: 35px;
+}
+
+form label .fa-solid {
+    font-size: 20px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+form label input {
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px #001aff;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder {
+    color: rgba(37, 37, 37, 0.5);
+}
+
+
+form .link {
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+form button {
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right, #cb232c, #ce1d61);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
